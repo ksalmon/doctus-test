@@ -1,3 +1,4 @@
+
 describe('Enrollment Funnel', () => {
   it('should load', () => {
     cy.visit('http://get.inspirecleanenergy-stage.com');
@@ -9,7 +10,7 @@ describe('Enrollment Funnel', () => {
     cy.get('[name="last_name"]').type('Salmon{enter}')
 
 
-    cy.contains('Next, let\'s get your address')
+    cy.contains('Next, let\'s get your addres')
   });
 });
 
