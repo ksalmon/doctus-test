@@ -1,0 +1,16 @@
+{
+  "name": "doctus",
+  "version": "1.0.0",
+  "description": "E2E Testing Service for Inspire",
+  "main": "index.js",
+   "scripts": {
+    "test:open": "cypress open",
+    "test:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "typescript": "^4.0.3"
+  }
+}
